@@ -30,24 +30,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/grpcutil"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/balancer/base"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/internal/backoff"
+	"github/mchirico/grpc/internal/channelz"
+	"github/mchirico/grpc/internal/grpcsync"
+	"github/mchirico/grpc/internal/grpcutil"
+	"github/mchirico/grpc/internal/transport"
+	"github/mchirico/grpc/keepalive"
+	"github/mchirico/grpc/resolver"
+	"github/mchirico/grpc/serviceconfig"
+	"github/mchirico/grpc/status"
 
-	_ "google.golang.org/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "google.golang.org/grpc/internal/resolver/dns"         // To register dns resolver.
-	_ "google.golang.org/grpc/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "github/mchirico/grpc/balancer/roundrobin"           // To register roundrobin.
+	_ "github/mchirico/grpc/internal/resolver/dns"         // To register dns resolver.
+	_ "github/mchirico/grpc/internal/resolver/passthrough" // To register passthrough resolver.
 )
 
 const (

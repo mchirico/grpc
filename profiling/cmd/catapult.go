@@ -26,8 +26,8 @@ import (
 	"sort"
 	"strings"
 
-	"google.golang.org/grpc/grpclog"
-	ppb "google.golang.org/grpc/profiling/proto"
+	"github/mchirico/grpc/grpclog"
+	ppb "github/mchirico/grpc/profiling/proto"
 )
 
 type jsonNode struct {

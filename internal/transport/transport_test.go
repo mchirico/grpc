@@ -36,11 +36,11 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/internal/grpctest"
+	"github/mchirico/grpc/internal/leakcheck"
+	"github/mchirico/grpc/internal/testutils"
+	"github/mchirico/grpc/status"
 )
 
 type s struct {

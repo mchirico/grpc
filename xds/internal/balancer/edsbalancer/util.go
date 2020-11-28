@@ -17,8 +17,8 @@
 package edsbalancer
 
 import (
-	"google.golang.org/grpc/internal/wrr"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
+	"github/mchirico/grpc/internal/wrr"
+	xdsclient "github/mchirico/grpc/xds/internal/client"
 )
 
 var newRandomWRR = wrr.NewRandom

@@ -24,15 +24,15 @@ import (
 	"time"
 
 	orcapb "github.com/cncf/udpa/go/udpa/data/orca/v1"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/cache"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/wrr"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/balancer/base"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/internal/cache"
+	"github/mchirico/grpc/internal/grpclog"
+	"github/mchirico/grpc/internal/wrr"
+	"github/mchirico/grpc/resolver"
+	"github/mchirico/grpc/xds/internal"
+	"github/mchirico/grpc/xds/internal/balancer/lrs"
 )
 
 // subBalancerWithConfig is used to keep the configurations that will be used to start

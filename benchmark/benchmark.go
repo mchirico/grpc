@@ -30,11 +30,11 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc"
+	testpb "github/mchirico/grpc/benchmark/grpc_testing"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/status"
 )
 
 // Allows reuse of the same testpb.Payload object.

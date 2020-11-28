@@ -31,13 +31,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/keepalive"
+	"github/mchirico/grpc/metadata"
+	"github/mchirico/grpc/stats"
+	"github/mchirico/grpc/status"
+	"github/mchirico/grpc/tap"
 )
 
 type bufferPool struct {

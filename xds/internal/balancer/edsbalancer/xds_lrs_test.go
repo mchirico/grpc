@@ -21,11 +21,11 @@ package edsbalancer
 import (
 	"testing"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
+	"github/mchirico/grpc/attributes"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/resolver"
+	xdsinternal "github/mchirico/grpc/xds/internal"
+	"github/mchirico/grpc/xds/internal/testutils/fakeclient"
 )
 
 // TestXDSLoadReporting verifies that the edsBalancer starts the loadReport

@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	testpb "google.golang.org/grpc/stats/grpc_testing"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/internal/grpctest"
+	"github/mchirico/grpc/metadata"
+	"github/mchirico/grpc/stats"
+	testpb "github/mchirico/grpc/stats/grpc_testing"
+	"github/mchirico/grpc/status"
 )
 
 type s struct {

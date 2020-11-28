@@ -27,9 +27,9 @@ import (
 	"os"
 	"strconv"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/grpclog"
+	testpb "github/mchirico/grpc/interop/grpc_testing"
 )
 
 var (

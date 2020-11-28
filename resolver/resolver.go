@@ -24,9 +24,9 @@ import (
 	"context"
 	"net"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/serviceconfig"
+	"github/mchirico/grpc/attributes"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/serviceconfig"
 )
 
 var (

@@ -30,7 +30,7 @@ import (
 	"syscall"
 	"time"
 
-	"google.golang.org/grpc/credentials"
+	"github/mchirico/grpc/credentials"
 )
 
 // VerificationFuncParams contains the parameters available to users when implementing CustomVerificationFunc.

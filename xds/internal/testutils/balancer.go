@@ -25,12 +25,12 @@ import (
 	"testing"
 
 	envoy_api_v2_core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/wrr"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/internal/wrr"
+	"github/mchirico/grpc/resolver"
+	"github/mchirico/grpc/xds/internal"
 )
 
 const testSubConnsCount = 16

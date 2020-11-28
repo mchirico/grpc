@@ -27,16 +27,16 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/balancer/roundrobin"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/internal/grpctest"
+	"github/mchirico/grpc/peer"
+	"github/mchirico/grpc/resolver"
+	"github/mchirico/grpc/resolver/manual"
+	"github/mchirico/grpc/status"
+	testpb "github/mchirico/grpc/test/grpc_testing"
 )
 
 type s struct {

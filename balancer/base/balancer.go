@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/resolver"
 )
 
 type baseBuilder struct {

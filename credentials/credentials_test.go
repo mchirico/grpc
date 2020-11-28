@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/testdata"
+	"github/mchirico/grpc/internal"
+	"github/mchirico/grpc/internal/grpctest"
+	"github/mchirico/grpc/testdata"
 )
 
 type s struct {

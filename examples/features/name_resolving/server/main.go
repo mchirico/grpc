@@ -25,9 +25,9 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
+	"github/mchirico/grpc"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github/mchirico/grpc/examples/features/proto/echo"
 )
 
 const addr = "localhost:50051"

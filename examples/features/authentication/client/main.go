@@ -27,11 +27,11 @@ import (
 	"time"
 
 	"golang.org/x/oauth2"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/oauth"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/testdata"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/credentials/oauth"
+	ecpb "github/mchirico/grpc/examples/features/proto/echo"
+	"github/mchirico/grpc/testdata"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")
@@ -59,7 +59,7 @@ func main() {
 		// In addition to the following grpc.DialOption, callers may also use
 		// the grpc.CallOption grpc.PerRPCCredentials with the RPC invocation
 		// itself.
-		// See: https://godoc.org/google.golang.org/grpc#PerRPCCredentials
+		// See: https://godoc.org/github/mchirico/grpc#PerRPCCredentials
 		grpc.WithPerRPCCredentials(perRPC),
 		// oauth.NewOauthAccess requires the configuration of transport
 		// credentials.

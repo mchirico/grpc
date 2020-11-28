@@ -21,12 +21,12 @@ package grpc
 import (
 	"errors"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/resolver"
+	"github/mchirico/grpc/status"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

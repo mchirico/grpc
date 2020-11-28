@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github/mchirico/grpc"
+	lbpb "github/mchirico/grpc/balancer/grpclb/grpc_lb_v1"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/credentials/alts"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/status"
+	"github/mchirico/grpc/testdata"
 )
 
 var (

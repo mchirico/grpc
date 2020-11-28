@@ -30,8 +30,8 @@ import (
 	"syscall"
 	"testing"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/security/advancedtls/testdata"
 )
 
 func TestClientServerHandshake(t *testing.T) {

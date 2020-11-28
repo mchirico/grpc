@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/grpclog"
 )
 
 // entry represents a node in the channelz database.

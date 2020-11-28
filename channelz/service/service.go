@@ -27,14 +27,14 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	wrpb "github.com/golang/protobuf/ptypes/wrappers"
-	"google.golang.org/grpc"
-	channelzgrpc "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/status"
+	"github/mchirico/grpc"
+	channelzgrpc "github/mchirico/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github/mchirico/grpc/channelz/grpc_channelz_v1"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/connectivity"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/internal/channelz"
+	"github/mchirico/grpc/status"
 )
 
 func init() {

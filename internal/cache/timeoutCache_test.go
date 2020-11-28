@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/grpctest"
+	"github/mchirico/grpc/internal/grpctest"
 )
 
 const (

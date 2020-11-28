@@ -31,8 +31,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpctest"
+	"github/mchirico/grpc/internal/channelz"
+	"github/mchirico/grpc/internal/grpctest"
 )
 
 type s struct {

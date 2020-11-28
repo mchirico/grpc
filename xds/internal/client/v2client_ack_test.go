@@ -27,8 +27,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	anypb "github.com/golang/protobuf/ptypes/any"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
+	"github/mchirico/grpc/xds/internal/testutils"
+	"github/mchirico/grpc/xds/internal/testutils/fakeserver"
 )
 
 // compareXDSRequest reads requests from channel, compare it with want.

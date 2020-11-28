@@ -29,14 +29,14 @@ import (
 	"net"
 	"strings"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/metadata"
+	"github/mchirico/grpc/status"
+	"github/mchirico/grpc/testdata"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github/mchirico/grpc/examples/features/proto/echo"
 )
 
 var (
@@ -57,7 +57,7 @@ func main() {
 	opts := []grpc.ServerOption{
 		// The following grpc.ServerOption adds an interceptor for all unary
 		// RPCs. To configure an interceptor for streaming RPCs, see:
-		// https://godoc.org/google.golang.org/grpc#StreamInterceptor
+		// https://godoc.org/github/mchirico/grpc#StreamInterceptor
 		grpc.UnaryInterceptor(ensureValidToken),
 		// Enable TLS for all incoming connections.
 		grpc.Creds(credentials.NewServerTLSFromCert(&cert)),
@@ -103,7 +103,7 @@ func ensureValidToken(ctx context.Context, req interface{}, info *grpc.UnaryServ
 		return nil, errMissingMetadata
 	}
 	// The keys within metadata.MD are normalized to lowercase.
-	// See: https://godoc.org/google.golang.org/grpc/metadata#New
+	// See: https://godoc.org/github/mchirico/grpc/metadata#New
 	if !valid(md["authorization"]) {
 		return nil, errInvalidToken
 	}

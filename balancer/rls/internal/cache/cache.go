@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/internal/backoff"
 )
 
 // Key represents the cache key used to uniquely identify a cache entry.

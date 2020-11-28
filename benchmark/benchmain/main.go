@@ -57,16 +57,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc"
-	bm "google.golang.org/grpc/benchmark"
-	"google.golang.org/grpc/benchmark/flags"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/latency"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/test/bufconn"
+	"github/mchirico/grpc"
+	bm "github/mchirico/grpc/benchmark"
+	"github/mchirico/grpc/benchmark/flags"
+	testpb "github/mchirico/grpc/benchmark/grpc_testing"
+	"github/mchirico/grpc/benchmark/latency"
+	"github/mchirico/grpc/benchmark/stats"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/internal/channelz"
+	"github/mchirico/grpc/keepalive"
+	"github/mchirico/grpc/test/bufconn"
 )
 
 var (

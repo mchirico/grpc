@@ -24,8 +24,8 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	"google.golang.org/grpc/internal/grpctest"
-	scpb "google.golang.org/grpc/internal/proto/grpc_service_config"
+	"github/mchirico/grpc/internal/grpctest"
+	scpb "github/mchirico/grpc/internal/proto/grpc_service_config"
 )
 
 type s struct {

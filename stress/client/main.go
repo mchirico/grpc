@@ -32,15 +32,15 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/status"
-	metricspb "google.golang.org/grpc/stress/grpc_testing"
-	"google.golang.org/grpc/testdata"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/credentials"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/interop"
+	testpb "github/mchirico/grpc/interop/grpc_testing"
+	"github/mchirico/grpc/status"
+	metricspb "github/mchirico/grpc/stress/grpc_testing"
+	"github/mchirico/grpc/testdata"
 )
 
 var (

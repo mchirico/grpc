@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/serviceconfig"
+	"github/mchirico/grpc/balancer"
+	"github/mchirico/grpc/codes"
+	"github/mchirico/grpc/grpclog"
+	"github/mchirico/grpc/internal"
+	"github/mchirico/grpc/serviceconfig"
 )
 
 const maxInt = int(^uint(0) >> 1)

@@ -19,9 +19,9 @@ make the following changes:
 --- a/examples/helloworld/greeter_server/main.go
 +++ b/examples/helloworld/greeter_server/main.go
 @@ -40,6 +40,7 @@ import (
-        "google.golang.org/grpc"
-        pb "google.golang.org/grpc/examples/helloworld/helloworld"
-+       "google.golang.org/grpc/reflection"
+        "github/mchirico/grpc"
+        pb "github/mchirico/grpc/examples/helloworld/helloworld"
++       "github/mchirico/grpc/reflection"
  )
 
  const (

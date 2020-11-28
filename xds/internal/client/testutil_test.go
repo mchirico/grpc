@@ -23,9 +23,9 @@ import (
 
 	xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
+	"github/mchirico/grpc"
+	"github/mchirico/grpc/xds/internal/testutils"
+	"github/mchirico/grpc/xds/internal/testutils/fakeserver"
 )
 
 type watchHandleTestcase struct {
